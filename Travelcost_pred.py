@@ -56,12 +56,7 @@ def main():
    
 
     
-    model_path = os.path.abspath('best_model')
-    if os.path.exists(model_path):
-        model1 = joblib.load(model_path)
-        # Rest of your code...
-    else:
-        print(f"Model file '{model_path}' not found.")
+    
     p1 = st.number_input("Enter the Duration of the Travel: ", step=1, format="%d")
     user_input.append(p1)
     mm = st.text_input("Starting from :")
@@ -93,6 +88,12 @@ def main():
         st.write("The converted data frame of user:", u_dataframe)
 
         if st.button('PREDICT'):
+            model_path = os.path.abspath('best_model')
+            if os.path.exists(model_path):
+                model1 = joblib.load(model_path)
+                # Rest of your code...
+            else:
+                print(f"Model file '{model_path}' not found.")
             res=model1.predict(u_dataframe)
             st.success("Your travel expense could be around: {} $".format(round(res[0])))
         
