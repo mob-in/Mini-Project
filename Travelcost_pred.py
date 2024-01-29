@@ -89,8 +89,7 @@ def main():
         st.write("The converted data frame of user:", u_dataframe)
 
         if st.button('PREDICT'):
-            res = None
-            model_path = os.path.abspath('best_model')
+            model_path = os.path.abspath('best_model.sav')
             if os.path.exists(model_path):
                 model = joblib.load(model_path)
                 # Rest of your code...
