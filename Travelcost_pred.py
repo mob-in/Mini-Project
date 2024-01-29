@@ -97,7 +97,8 @@ def main():
                 print(f"Model file '{model_path}' not found.")
             if model is not None:
                 res=model.predict(u_dataframe)
-                st.success("Your travel expense could be around: {} $".format(round(res[0])))
+                if res is not None:
+                    st.success("Your travel expense could be around: {} $".format(round(res[0])))
         
 
         # Display additional details about the travel package with improved styling
