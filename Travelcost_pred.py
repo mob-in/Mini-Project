@@ -89,6 +89,7 @@ def main():
         st.write("The converted data frame of user:", u_dataframe)
 
         if st.button('PREDICT'):
+            res = None
             model_path = os.path.abspath('best_model')
             if os.path.exists(model_path):
                 model = joblib.load(model_path)
@@ -97,8 +98,7 @@ def main():
                 print(f"Model file '{model_path}' not found.")
             if model is not None:
                 res=model.predict(u_dataframe)
-                if res is not None:
-                    st.success("Your travel expense could be around: {} $".format(round(res[0])))
+                st.success("Your travel expense could be around: {} $".format(round(res[0])))
         
 
         # Display additional details about the travel package with improved styling
