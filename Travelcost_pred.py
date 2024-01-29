@@ -74,7 +74,7 @@ def main():
     user_input.append(p4)
     columns = ["Duration (days)", "Destination", "Accommodation type", "Transportation"]
     u_dataframe = pd.DataFrame([user_input], columns=columns)
-    
+    model=None
     if p2 and mm:
         df = pd.read_csv("u_t_d_f.csv")
         u_dataframe = pd.get_dummies(u_dataframe, columns=['Destination'], prefix='Destination')
@@ -90,11 +90,11 @@ def main():
         if st.button('PREDICT'):
             model_path = os.path.abspath('best_model')
             if os.path.exists(model_path):
-                model1 = joblib.load(model_path)
+                model = joblib.load(model_path)
                 # Rest of your code...
             else:
                 print(f"Model file '{model_path}' not found.")
-            res=model1.predict(u_dataframe)
+            res=model.predict(u_dataframe)
             st.success("Your travel expense could be around: {} $".format(round(res[0])))
         
 
