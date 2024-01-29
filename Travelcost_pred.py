@@ -75,6 +75,7 @@ def main():
     columns = ["Duration (days)", "Destination", "Accommodation type", "Transportation"]
     u_dataframe = pd.DataFrame([user_input], columns=columns)
     model=None
+    res=None
     if p2 and mm:
         df = pd.read_csv("u_t_d_f.csv")
         u_dataframe = pd.get_dummies(u_dataframe, columns=['Destination'], prefix='Destination')
