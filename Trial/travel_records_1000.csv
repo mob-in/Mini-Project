@@ -1,0 +1,1001 @@
+Trip ID,Destination,Duration (days),Mode of Transportation,Accommodation Type,Overall Expenses ($)
+1,Amsterdam,8,Train,Hostel,2811
+2,Paris,14,Car Rental,Hotel,4355
+3,San Francisco,8,Bus,Hotel,1137
+4,Sydney,4,Airplane,Hotel,3162
+5,Sydney,3,Car Rental,Hotel,1669
+6,Paris,1,Train,Hostel,2592
+7,Rome,7,Car Rental,Hostel,2828
+8,Sydney,8,Train,Hostel,3698
+9,Rome,11,Airplane,Airbnb,4650
+10,Paris,13,Airplane,Airbnb,1221
+11,Sydney,7,Train,Hotel,4881
+12,Amsterdam,2,Train,Airbnb,3752
+13,Amsterdam,6,Car Rental,Hotel,4749
+14,Rome,12,Airplane,Airbnb,3309
+15,Tokyo,8,Airplane,Airbnb,1797
+16,Berlin,1,Bus,Hotel,3463
+17,Sydney,5,Train,Hostel,4748
+18,Berlin,4,Car Rental,Hotel,1184
+19,San Francisco,4,Airplane,Airbnb,2192
+20,Paris,1,Car Rental,Airbnb,3238
+21,Sydney,13,Bus,Hostel,3060
+22,Berlin,1,Car Rental,Airbnb,3605
+23,Tokyo,5,Bus,Hostel,4250
+24,London,13,Train,Hostel,1152
+25,New York,7,Car Rental,Hotel,4757
+26,San Francisco,6,Train,Hostel,1211
+27,Barcelona,2,Bus,Hostel,4125
+28,Berlin,11,Bus,Hostel,2472
+29,New York,1,Bus,Hotel,4280
+30,Tokyo,14,Car Rental,Airbnb,1491
+31,Barcelona,5,Train,Airbnb,4579
+32,Sydney,6,Car Rental,Hotel,4788
+33,New York,5,Airplane,Hostel,3801
+34,New York,4,Car Rental,Hotel,3544
+35,Amsterdam,8,Airplane,Hostel,3712
+36,Barcelona,12,Car Rental,Airbnb,1078
+37,San Francisco,5,Airplane,Hotel,2957
+38,Paris,1,Airplane,Hostel,1943
+39,Paris,7,Bus,Airbnb,4080
+40,Sydney,4,Train,Hotel,3700
+41,Paris,5,Airplane,Hotel,2192
+42,Sydney,14,Train,Airbnb,3274
+43,Rome,4,Bus,Airbnb,3939
+44,Sydney,13,Airplane,Hostel,2723
+45,Paris,8,Airplane,Hotel,3617
+46,Rome,6,Car Rental,Hostel,1563
+47,Tokyo,13,Bus,Hotel,2844
+48,Berlin,13,Airplane,Airbnb,3734
+49,Paris,1,Bus,Hostel,3317
+50,Barcelona,8,Bus,Airbnb,4871
+51,New York,6,Bus,Hostel,2639
+52,Amsterdam,2,Bus,Hotel,4333
+53,Rome,3,Car Rental,Airbnb,4112
+54,New York,10,Airplane,Airbnb,3540
+55,London,5,Train,Hotel,1986
+56,San Francisco,2,Car Rental,Hostel,3241
+57,London,10,Airplane,Airbnb,2358
+58,New York,13,Airplane,Hostel,4317
+59,San Francisco,12,Car Rental,Hostel,4371
+60,San Francisco,12,Bus,Hostel,2695
+61,Paris,9,Bus,Hotel,2880
+62,Paris,11,Airplane,Hostel,4684
+63,Amsterdam,11,Car Rental,Hostel,1741
+64,London,1,Car Rental,Airbnb,1836
+65,London,13,Car Rental,Airbnb,2054
+66,San Francisco,10,Car Rental,Hostel,2713
+67,Amsterdam,8,Train,Hostel,3673
+68,Paris,6,Bus,Hotel,1458
+69,San Francisco,3,Airplane,Airbnb,1725
+70,Barcelona,13,Train,Hotel,3912
+71,Rome,2,Bus,Hostel,3506
+72,Tokyo,13,Train,Hostel,4075
+73,London,4,Car Rental,Hotel,4523
+74,Paris,14,Car Rental,Hotel,4645
+75,Berlin,12,Car Rental,Hotel,1643
+76,London,5,Bus,Airbnb,1050
+77,Paris,2,Car Rental,Hostel,4333
+78,San Francisco,5,Airplane,Hostel,4921
+79,Paris,7,Bus,Hostel,3259
+80,Tokyo,9,Bus,Hotel,2850
+81,New York,10,Car Rental,Hostel,3282
+82,London,3,Airplane,Hostel,1184
+83,Berlin,2,Car Rental,Hotel,1280
+84,Tokyo,3,Train,Airbnb,1544
+85,Paris,6,Train,Hotel,2454
+86,Paris,1,Bus,Hotel,3358
+87,London,6,Airplane,Hostel,1119
+88,Paris,5,Train,Airbnb,2196
+89,San Francisco,8,Bus,Airbnb,4560
+90,New York,12,Train,Hotel,4809
+91,Paris,6,Airplane,Hotel,1526
+92,Berlin,2,Train,Hostel,1559
+93,San Francisco,12,Airplane,Hostel,2697
+94,Rome,10,Train,Hostel,4921
+95,New York,2,Car Rental,Airbnb,3718
+96,Amsterdam,2,Airplane,Hotel,3303
+97,Sydney,1,Airplane,Hostel,3861
+98,Sydney,9,Airplane,Airbnb,3651
+99,London,6,Car Rental,Hotel,4201
+100,Berlin,8,Airplane,Airbnb,4791
+101,Barcelona,10,Bus,Hostel,4949
+102,Sydney,6,Airplane,Airbnb,1622
+103,Barcelona,11,Train,Airbnb,3578
+104,Tokyo,8,Train,Hotel,1790
+105,San Francisco,2,Train,Airbnb,3064
+106,Rome,4,Train,Hotel,3603
+107,Paris,4,Train,Hostel,3455
+108,Barcelona,2,Airplane,Hostel,3833
+109,Paris,1,Car Rental,Airbnb,2560
+110,Barcelona,12,Bus,Hotel,1089
+111,Tokyo,5,Car Rental,Hostel,4463
+112,Berlin,7,Airplane,Airbnb,4193
+113,Paris,1,Bus,Airbnb,2322
+114,Tokyo,8,Airplane,Hotel,4942
+115,Barcelona,10,Airplane,Hostel,4944
+116,New York,4,Bus,Airbnb,4051
+117,Paris,5,Car Rental,Hotel,2405
+118,London,9,Bus,Airbnb,4997
+119,San Francisco,13,Airplane,Hostel,2898
+120,Sydney,5,Train,Airbnb,3187
+121,Sydney,9,Car Rental,Airbnb,1266
+122,San Francisco,9,Airplane,Airbnb,2377
+123,New York,14,Car Rental,Airbnb,3304
+124,New York,2,Train,Airbnb,2878
+125,San Francisco,10,Bus,Hotel,1500
+126,Sydney,11,Airplane,Hostel,4689
+127,London,2,Airplane,Airbnb,3419
+128,Barcelona,4,Bus,Airbnb,4743
+129,New York,4,Bus,Hostel,3270
+130,San Francisco,8,Bus,Hostel,3958
+131,New York,12,Bus,Hotel,1431
+132,Berlin,3,Train,Airbnb,3984
+133,Tokyo,5,Bus,Hostel,4481
+134,London,10,Bus,Airbnb,1221
+135,Tokyo,13,Car Rental,Airbnb,1367
+136,Paris,9,Train,Hotel,2436
+137,Rome,4,Bus,Airbnb,3538
+138,San Francisco,11,Train,Hostel,2484
+139,Tokyo,14,Car Rental,Airbnb,1014
+140,Tokyo,1,Train,Airbnb,4802
+141,Tokyo,6,Train,Hostel,1132
+142,Barcelona,13,Airplane,Hotel,4279
+143,San Francisco,3,Airplane,Hostel,1706
+144,Sydney,6,Bus,Airbnb,4945
+145,Amsterdam,1,Car Rental,Hotel,2441
+146,Tokyo,11,Bus,Hostel,3394
+147,Berlin,13,Car Rental,Hostel,3842
+148,Tokyo,10,Bus,Airbnb,3712
+149,Berlin,14,Train,Hotel,4655
+150,New York,10,Train,Hostel,4792
+151,San Francisco,6,Train,Hotel,3988
+152,Amsterdam,4,Car Rental,Hostel,3575
+153,Paris,9,Airplane,Airbnb,3818
+154,Barcelona,10,Train,Hostel,2335
+155,Tokyo,14,Car Rental,Hotel,1911
+156,New York,2,Train,Hostel,3052
+157,Rome,10,Airplane,Hostel,1979
+158,Paris,6,Car Rental,Hostel,1046
+159,Paris,9,Train,Hotel,3629
+160,New York,1,Train,Hostel,4049
+161,London,5,Airplane,Hotel,3870
+162,Rome,1,Car Rental,Airbnb,3201
+163,Amsterdam,10,Bus,Airbnb,2225
+164,London,5,Car Rental,Airbnb,3387
+165,San Francisco,9,Bus,Hotel,2104
+166,Tokyo,5,Airplane,Airbnb,3644
+167,San Francisco,3,Train,Hotel,1280
+168,London,8,Airplane,Hostel,2359
+169,Berlin,4,Car Rental,Hostel,3281
+170,Berlin,2,Train,Hostel,4260
+171,Berlin,11,Train,Hotel,3208
+172,San Francisco,3,Bus,Hostel,4168
+173,Sydney,7,Bus,Hotel,4441
+174,Amsterdam,5,Airplane,Airbnb,4113
+175,London,3,Airplane,Airbnb,1227
+176,Rome,11,Airplane,Airbnb,4484
+177,Barcelona,8,Train,Hostel,3875
+178,Paris,10,Airplane,Hotel,3711
+179,Rome,14,Car Rental,Airbnb,2666
+180,Berlin,8,Train,Hostel,3747
+181,Rome,11,Bus,Hotel,4191
+182,Amsterdam,9,Train,Hostel,4231
+183,Rome,9,Car Rental,Hotel,2743
+184,London,11,Car Rental,Airbnb,3870
+185,London,12,Bus,Hotel,2997
+186,San Francisco,11,Train,Hotel,3183
+187,New York,7,Train,Hostel,3944
+188,Amsterdam,14,Train,Airbnb,4095
+189,Amsterdam,14,Airplane,Airbnb,2640
+190,Barcelona,12,Car Rental,Airbnb,2592
+191,Sydney,6,Train,Airbnb,2434
+192,London,8,Bus,Airbnb,1736
+193,Sydney,14,Train,Hostel,3722
+194,Tokyo,1,Car Rental,Hostel,4400
+195,Paris,6,Train,Airbnb,4870
+196,London,12,Train,Airbnb,4198
+197,San Francisco,8,Car Rental,Airbnb,3533
+198,Amsterdam,14,Airplane,Airbnb,3441
+199,Tokyo,12,Train,Airbnb,3865
+200,London,12,Airplane,Hotel,4344
+201,San Francisco,10,Train,Hotel,1001
+202,London,10,Car Rental,Airbnb,2673
+203,London,9,Car Rental,Airbnb,4189
+204,Sydney,10,Train,Airbnb,2645
+205,Sydney,10,Airplane,Airbnb,3306
+206,Sydney,8,Car Rental,Hostel,4263
+207,New York,1,Train,Airbnb,1916
+208,Sydney,6,Car Rental,Hostel,1067
+209,Barcelona,2,Train,Hotel,2244
+210,Tokyo,10,Car Rental,Hostel,2863
+211,Sydney,1,Airplane,Hostel,4540
+212,New York,13,Airplane,Hotel,2192
+213,London,2,Train,Hostel,4001
+214,Tokyo,1,Bus,Airbnb,4533
+215,Amsterdam,9,Car Rental,Airbnb,3280
+216,Rome,11,Bus,Hostel,4563
+217,London,2,Train,Airbnb,4102
+218,Barcelona,6,Airplane,Airbnb,1031
+219,Berlin,6,Airplane,Hostel,3887
+220,Sydney,11,Airplane,Hotel,1075
+221,Sydney,10,Bus,Hostel,4888
+222,New York,6,Train,Hotel,4949
+223,Sydney,4,Bus,Hostel,1128
+224,San Francisco,14,Airplane,Airbnb,1624
+225,Tokyo,5,Airplane,Hotel,1653
+226,Amsterdam,12,Airplane,Hostel,3601
+227,London,10,Train,Hostel,1230
+228,Amsterdam,8,Train,Hotel,1412
+229,San Francisco,3,Bus,Airbnb,1079
+230,Amsterdam,11,Train,Hostel,1099
+231,Barcelona,6,Airplane,Hotel,3846
+232,New York,12,Airplane,Hotel,4852
+233,New York,6,Bus,Hotel,3644
+234,Tokyo,11,Train,Hotel,1049
+235,London,7,Airplane,Hostel,2642
+236,New York,2,Airplane,Airbnb,4179
+237,Amsterdam,1,Car Rental,Hostel,2624
+238,Barcelona,3,Bus,Airbnb,1093
+239,New York,6,Train,Hotel,4751
+240,Berlin,2,Airplane,Hostel,3476
+241,Sydney,1,Bus,Airbnb,3601
+242,Sydney,5,Airplane,Hostel,2002
+243,Berlin,11,Airplane,Hostel,4559
+244,Sydney,3,Airplane,Airbnb,2431
+245,London,1,Airplane,Airbnb,2479
+246,San Francisco,3,Bus,Hotel,3294
+247,New York,7,Bus,Hostel,1558
+248,Tokyo,11,Train,Airbnb,4780
+249,San Francisco,13,Airplane,Airbnb,4213
+250,San Francisco,12,Train,Hotel,1517
+251,San Francisco,8,Car Rental,Hotel,3443
+252,Paris,6,Bus,Airbnb,4204
+253,Sydney,8,Bus,Airbnb,2086
+254,San Francisco,13,Bus,Hostel,1775
+255,New York,7,Car Rental,Hostel,3370
+256,Paris,11,Car Rental,Hostel,2465
+257,Rome,8,Train,Hotel,4924
+258,Amsterdam,2,Train,Airbnb,4539
+259,Paris,10,Car Rental,Airbnb,3970
+260,London,5,Airplane,Airbnb,4722
+261,New York,13,Train,Airbnb,2886
+262,Amsterdam,12,Bus,Hostel,3512
+263,Sydney,1,Bus,Hotel,4325
+264,Tokyo,7,Train,Airbnb,1814
+265,Sydney,9,Car Rental,Hotel,3151
+266,San Francisco,9,Airplane,Hotel,4990
+267,Tokyo,4,Train,Airbnb,1236
+268,Berlin,2,Train,Hotel,3493
+269,New York,9,Train,Airbnb,2651
+270,New York,6,Airplane,Hostel,1520
+271,London,2,Airplane,Hotel,4509
+272,Amsterdam,14,Car Rental,Hostel,4302
+273,Sydney,9,Airplane,Airbnb,4958
+274,Sydney,1,Train,Airbnb,1315
+275,Barcelona,4,Train,Hostel,2936
+276,New York,3,Bus,Airbnb,4031
+277,Berlin,5,Car Rental,Airbnb,3758
+278,London,3,Bus,Airbnb,4196
+279,San Francisco,12,Bus,Airbnb,4808
+280,Barcelona,3,Car Rental,Hotel,2467
+281,Paris,10,Bus,Airbnb,2986
+282,Sydney,4,Bus,Hotel,1604
+283,Amsterdam,9,Train,Hotel,4255
+284,New York,3,Airplane,Hostel,1355
+285,Amsterdam,2,Bus,Hotel,4782
+286,Sydney,11,Train,Airbnb,1182
+287,San Francisco,4,Bus,Hotel,1579
+288,San Francisco,14,Bus,Hostel,1626
+289,San Francisco,4,Bus,Hostel,3456
+290,New York,10,Airplane,Airbnb,1244
+291,Amsterdam,14,Airplane,Hotel,1331
+292,Amsterdam,9,Car Rental,Hotel,1636
+293,Paris,1,Car Rental,Hostel,1805
+294,Rome,14,Train,Hotel,4454
+295,Barcelona,8,Car Rental,Hotel,1336
+296,Berlin,7,Bus,Hostel,1971
+297,Barcelona,8,Airplane,Hostel,1087
+298,Berlin,4,Train,Hotel,1326
+299,Barcelona,13,Train,Hotel,3874
+300,Rome,9,Car Rental,Airbnb,1899
+301,Barcelona,7,Bus,Airbnb,2711
+302,Sydney,3,Airplane,Airbnb,3533
+303,London,8,Airplane,Hostel,1322
+304,San Francisco,7,Bus,Airbnb,3071
+305,Sydney,2,Bus,Hotel,2086
+306,Berlin,1,Bus,Hostel,4772
+307,Berlin,9,Train,Hotel,1285
+308,Amsterdam,8,Car Rental,Airbnb,4250
+309,London,8,Train,Airbnb,4624
+310,New York,3,Train,Airbnb,4389
+311,Berlin,12,Train,Airbnb,1552
+312,Tokyo,3,Car Rental,Hotel,4532
+313,Tokyo,5,Car Rental,Hostel,1178
+314,Amsterdam,12,Train,Airbnb,4137
+315,Amsterdam,10,Bus,Hostel,1859
+316,Amsterdam,5,Train,Airbnb,3492
+317,Amsterdam,3,Bus,Hotel,2132
+318,Barcelona,7,Airplane,Airbnb,2773
+319,Barcelona,5,Bus,Hotel,4821
+320,New York,4,Bus,Airbnb,2277
+321,Berlin,7,Bus,Hotel,1431
+322,London,9,Car Rental,Hostel,1314
+323,Berlin,9,Bus,Hotel,1451
+324,Amsterdam,4,Train,Hotel,1071
+325,London,1,Bus,Hostel,3107
+326,Paris,14,Train,Hostel,3512
+327,London,3,Bus,Airbnb,4979
+328,Tokyo,1,Bus,Airbnb,1501
+329,Berlin,6,Bus,Hotel,2938
+330,London,4,Bus,Airbnb,3132
+331,Sydney,5,Train,Hotel,4477
+332,Tokyo,2,Train,Airbnb,2737
+333,Barcelona,7,Car Rental,Hostel,4438
+334,Paris,11,Bus,Hotel,3124
+335,Amsterdam,6,Car Rental,Hotel,4623
+336,Berlin,8,Car Rental,Hotel,1498
+337,Paris,13,Car Rental,Hotel,4303
+338,Barcelona,9,Train,Hotel,3784
+339,Sydney,1,Car Rental,Airbnb,2647
+340,Sydney,13,Bus,Airbnb,1381
+341,Sydney,8,Airplane,Hostel,1154
+342,San Francisco,11,Car Rental,Hotel,4159
+343,Berlin,13,Bus,Hostel,1081
+344,Amsterdam,11,Car Rental,Hostel,1767
+345,Amsterdam,4,Bus,Hostel,2398
+346,Sydney,2,Airplane,Hostel,2010
+347,Amsterdam,4,Bus,Hotel,2568
+348,San Francisco,1,Train,Hostel,4212
+349,San Francisco,2,Train,Airbnb,4274
+350,Amsterdam,5,Bus,Airbnb,3997
+351,London,1,Airplane,Airbnb,1654
+352,San Francisco,9,Bus,Hotel,1974
+353,Sydney,1,Car Rental,Hostel,4231
+354,Amsterdam,14,Bus,Hotel,4712
+355,London,4,Airplane,Hotel,1707
+356,San Francisco,10,Bus,Hotel,3485
+357,London,4,Bus,Hotel,2776
+358,Rome,14,Train,Airbnb,2791
+359,Berlin,1,Airplane,Hostel,2976
+360,Amsterdam,13,Train,Airbnb,1688
+361,Barcelona,6,Car Rental,Hostel,1498
+362,New York,1,Bus,Hotel,2284
+363,Berlin,4,Car Rental,Airbnb,4833
+364,Barcelona,13,Train,Hotel,1229
+365,Paris,10,Train,Hostel,1760
+366,Barcelona,10,Airplane,Airbnb,4352
+367,Tokyo,13,Train,Hostel,2226
+368,Paris,3,Car Rental,Hostel,1484
+369,London,2,Car Rental,Airbnb,1495
+370,London,5,Car Rental,Hotel,1754
+371,Rome,2,Train,Airbnb,2691
+372,Tokyo,6,Bus,Hotel,4740
+373,Tokyo,13,Bus,Hostel,3684
+374,San Francisco,9,Airplane,Airbnb,2540
+375,Sydney,3,Bus,Hotel,4627
+376,Paris,3,Airplane,Hotel,4099
+377,Berlin,4,Airplane,Hostel,4693
+378,San Francisco,6,Bus,Hotel,1178
+379,Amsterdam,12,Train,Hotel,2442
+380,Berlin,8,Train,Airbnb,4345
+381,Tokyo,7,Train,Airbnb,2607
+382,San Francisco,3,Bus,Hostel,4327
+383,Amsterdam,9,Airplane,Hostel,4397
+384,Rome,4,Bus,Airbnb,1772
+385,Sydney,9,Car Rental,Airbnb,2223
+386,Sydney,9,Car Rental,Hostel,4428
+387,Rome,3,Train,Hostel,2076
+388,Rome,1,Airplane,Hotel,2229
+389,New York,7,Train,Hotel,4694
+390,San Francisco,3,Airplane,Airbnb,1060
+391,San Francisco,6,Car Rental,Hotel,4074
+392,Paris,2,Airplane,Hostel,2232
+393,San Francisco,5,Train,Airbnb,2328
+394,Paris,10,Bus,Hotel,1387
+395,San Francisco,7,Bus,Airbnb,1892
+396,Rome,7,Car Rental,Airbnb,4174
+397,New York,12,Train,Airbnb,3139
+398,Amsterdam,8,Bus,Hostel,3140
+399,Barcelona,13,Airplane,Hostel,2996
+400,Amsterdam,9,Airplane,Airbnb,1982
+401,Barcelona,4,Airplane,Hostel,2697
+402,New York,10,Train,Hotel,3287
+403,Barcelona,2,Car Rental,Airbnb,3149
+404,Tokyo,3,Car Rental,Hostel,3228
+405,Paris,3,Airplane,Airbnb,2207
+406,Paris,5,Train,Hostel,2239
+407,Paris,12,Airplane,Hostel,4343
+408,Berlin,6,Train,Airbnb,1112
+409,Tokyo,9,Bus,Airbnb,1480
+410,London,6,Car Rental,Airbnb,1435
+411,Paris,7,Bus,Hostel,1270
+412,San Francisco,7,Car Rental,Hostel,4678
+413,Barcelona,2,Bus,Hotel,1155
+414,London,1,Bus,Airbnb,4538
+415,Tokyo,2,Airplane,Airbnb,3282
+416,London,3,Train,Hostel,3751
+417,London,9,Train,Hotel,3680
+418,San Francisco,14,Airplane,Airbnb,3428
+419,Berlin,14,Airplane,Airbnb,2179
+420,Paris,8,Train,Airbnb,3382
+421,Rome,3,Car Rental,Airbnb,3781
+422,Barcelona,3,Bus,Airbnb,1284
+423,Sydney,5,Bus,Airbnb,1713
+424,Berlin,5,Bus,Hostel,1401
+425,London,7,Car Rental,Hostel,2167
+426,London,2,Car Rental,Airbnb,2829
+427,Berlin,3,Car Rental,Hostel,3747
+428,Sydney,10,Train,Airbnb,3749
+429,Rome,11,Car Rental,Airbnb,2610
+430,Rome,12,Bus,Airbnb,1784
+431,San Francisco,8,Train,Airbnb,4582
+432,Berlin,14,Airplane,Airbnb,4168
+433,Sydney,4,Bus,Hostel,3062
+434,Rome,7,Airplane,Hostel,3930
+435,Amsterdam,4,Train,Hotel,1757
+436,San Francisco,9,Bus,Hotel,3930
+437,Sydney,9,Airplane,Hotel,3077
+438,Tokyo,14,Car Rental,Airbnb,2359
+439,Tokyo,1,Bus,Hotel,1778
+440,Berlin,12,Bus,Airbnb,1187
+441,Tokyo,6,Car Rental,Hotel,3981
+442,Rome,1,Car Rental,Airbnb,1729
+443,Berlin,6,Airplane,Hotel,2636
+444,Berlin,10,Bus,Airbnb,4503
+445,Sydney,13,Train,Hotel,1995
+446,Sydney,14,Airplane,Airbnb,3814
+447,Berlin,10,Car Rental,Airbnb,4260
+448,Sydney,4,Bus,Airbnb,4422
+449,London,14,Train,Hostel,2172
+450,Amsterdam,4,Car Rental,Hostel,4745
+451,London,2,Train,Hotel,4372
+452,Sydney,6,Car Rental,Airbnb,4376
+453,Sydney,3,Airplane,Airbnb,2605
+454,New York,12,Car Rental,Hostel,1714
+455,Sydney,3,Airplane,Hostel,3199
+456,Berlin,8,Train,Airbnb,3576
+457,Rome,6,Bus,Airbnb,4592
+458,Tokyo,10,Train,Hotel,3870
+459,Barcelona,12,Car Rental,Hotel,2874
+460,San Francisco,5,Airplane,Hotel,2112
+461,Berlin,6,Bus,Airbnb,2696
+462,London,2,Bus,Hostel,3825
+463,Sydney,11,Airplane,Hotel,3178
+464,London,12,Train,Airbnb,3894
+465,New York,11,Airplane,Hostel,1555
+466,Paris,5,Car Rental,Hostel,3118
+467,New York,5,Airplane,Hostel,2845
+468,San Francisco,9,Car Rental,Airbnb,4635
+469,London,10,Car Rental,Hotel,2492
+470,Amsterdam,3,Train,Airbnb,2111
+471,Barcelona,14,Train,Airbnb,3042
+472,Sydney,10,Bus,Airbnb,1535
+473,Sydney,14,Bus,Airbnb,4806
+474,Rome,11,Train,Hostel,2903
+475,Paris,8,Train,Hostel,3720
+476,Rome,13,Airplane,Airbnb,3304
+477,Sydney,7,Car Rental,Hotel,3413
+478,Tokyo,13,Airplane,Hotel,1423
+479,Tokyo,3,Bus,Hostel,4418
+480,New York,13,Car Rental,Airbnb,4037
+481,New York,2,Airplane,Hotel,4690
+482,Barcelona,14,Bus,Hotel,1378
+483,Barcelona,6,Train,Airbnb,1431
+484,Barcelona,11,Bus,Hotel,1860
+485,Sydney,12,Bus,Hotel,2705
+486,Berlin,9,Car Rental,Hostel,2436
+487,Sydney,2,Bus,Hotel,1887
+488,Tokyo,10,Airplane,Airbnb,1034
+489,Paris,3,Bus,Hotel,4057
+490,Paris,4,Airplane,Hotel,4619
+491,Sydney,9,Car Rental,Hostel,1803
+492,Rome,7,Airplane,Hostel,3542
+493,Amsterdam,7,Car Rental,Hostel,1665
+494,Tokyo,8,Bus,Airbnb,2160
+495,London,7,Airplane,Hotel,2589
+496,Amsterdam,8,Bus,Hostel,1512
+497,Paris,1,Bus,Hostel,2662
+498,London,5,Train,Airbnb,3601
+499,Barcelona,8,Train,Hostel,1506
+500,Berlin,8,Airplane,Hostel,1324
+501,Sydney,11,Train,Hotel,1912
+502,Amsterdam,14,Airplane,Hotel,1483
+503,Rome,7,Car Rental,Airbnb,3499
+504,Sydney,3,Car Rental,Airbnb,3509
+505,Paris,5,Car Rental,Hostel,1307
+506,Tokyo,8,Bus,Hostel,4991
+507,New York,3,Train,Airbnb,2638
+508,Rome,14,Car Rental,Hostel,2158
+509,Tokyo,10,Airplane,Airbnb,2171
+510,Amsterdam,3,Car Rental,Hostel,4570
+511,Sydney,11,Airplane,Airbnb,3352
+512,Amsterdam,10,Train,Hostel,2176
+513,London,8,Airplane,Hostel,2918
+514,Barcelona,12,Bus,Airbnb,1555
+515,Amsterdam,10,Train,Hostel,4959
+516,London,11,Car Rental,Airbnb,2607
+517,Amsterdam,4,Bus,Hostel,3162
+518,Paris,11,Airplane,Hotel,2030
+519,Amsterdam,6,Car Rental,Hotel,4551
+520,Barcelona,8,Train,Airbnb,4099
+521,San Francisco,5,Bus,Airbnb,4459
+522,Berlin,1,Airplane,Hotel,3277
+523,Amsterdam,9,Airplane,Airbnb,1963
+524,Amsterdam,4,Bus,Hotel,3411
+525,Paris,6,Train,Airbnb,4551
+526,London,13,Car Rental,Hotel,1737
+527,New York,8,Train,Hostel,3154
+528,San Francisco,1,Train,Hostel,1679
+529,London,11,Bus,Hotel,1774
+530,Berlin,1,Airplane,Airbnb,2019
+531,Berlin,14,Bus,Hotel,1403
+532,Barcelona,2,Bus,Hotel,3444
+533,Sydney,10,Bus,Airbnb,3408
+534,Barcelona,5,Bus,Airbnb,4120
+535,London,10,Car Rental,Hotel,3437
+536,Paris,11,Airplane,Hostel,1216
+537,Tokyo,14,Car Rental,Hotel,4020
+538,Tokyo,13,Airplane,Hotel,1531
+539,Barcelona,6,Car Rental,Airbnb,1375
+540,Sydney,2,Bus,Airbnb,3457
+541,Paris,6,Train,Hotel,3837
+542,San Francisco,10,Car Rental,Hotel,1748
+543,San Francisco,6,Bus,Hotel,3226
+544,Sydney,9,Bus,Hotel,1530
+545,Amsterdam,2,Train,Airbnb,3229
+546,Amsterdam,13,Airplane,Hostel,3810
+547,Paris,1,Car Rental,Hostel,3863
+548,New York,13,Bus,Airbnb,2312
+549,New York,3,Train,Hotel,1234
+550,London,2,Train,Airbnb,3032
+551,Berlin,12,Airplane,Airbnb,2354
+552,Tokyo,8,Bus,Airbnb,2080
+553,Rome,11,Airplane,Airbnb,3401
+554,Rome,7,Airplane,Hotel,1816
+555,Barcelona,1,Car Rental,Hostel,3401
+556,Rome,4,Airplane,Hostel,1808
+557,New York,8,Train,Hotel,3369
+558,Rome,13,Train,Hostel,1303
+559,Berlin,3,Bus,Airbnb,3880
+560,Barcelona,14,Airplane,Hotel,4652
+561,Rome,10,Car Rental,Airbnb,3705
+562,New York,3,Airplane,Hotel,2577
+563,London,7,Car Rental,Airbnb,4844
+564,Barcelona,3,Bus,Hotel,3551
+565,Barcelona,8,Bus,Airbnb,4454
+566,Rome,2,Train,Airbnb,3020
+567,Tokyo,6,Car Rental,Airbnb,3701
+568,Barcelona,3,Train,Hostel,2451
+569,Sydney,13,Bus,Airbnb,4133
+570,Tokyo,1,Car Rental,Hotel,4055
+571,Berlin,7,Bus,Hotel,1134
+572,Sydney,12,Airplane,Hotel,1821
+573,Paris,8,Car Rental,Hotel,1943
+574,Tokyo,2,Airplane,Hostel,4057
+575,Amsterdam,7,Airplane,Airbnb,3962
+576,London,9,Car Rental,Hostel,2156
+577,Amsterdam,10,Bus,Hostel,3166
+578,San Francisco,5,Train,Hostel,4228
+579,Barcelona,2,Car Rental,Hostel,1083
+580,Tokyo,1,Bus,Airbnb,4967
+581,Rome,6,Train,Hostel,2333
+582,Sydney,4,Car Rental,Airbnb,1201
+583,Berlin,5,Airplane,Airbnb,1161
+584,Rome,1,Train,Hostel,1951
+585,Sydney,4,Car Rental,Airbnb,1007
+586,Sydney,3,Bus,Hostel,2864
+587,London,8,Airplane,Hostel,1109
+588,Paris,9,Car Rental,Hotel,3459
+589,San Francisco,9,Airplane,Airbnb,1916
+590,Barcelona,3,Train,Airbnb,3273
+591,Sydney,6,Bus,Hotel,4900
+592,Rome,6,Train,Airbnb,1414
+593,Amsterdam,6,Car Rental,Hostel,3398
+594,Rome,11,Bus,Hostel,4467
+595,Tokyo,4,Car Rental,Hotel,3280
+596,Amsterdam,10,Train,Hostel,3132
+597,Barcelona,3,Train,Hotel,4212
+598,Berlin,6,Train,Airbnb,1947
+599,Tokyo,13,Bus,Hotel,2702
+600,Berlin,14,Airplane,Airbnb,2007
+601,Sydney,3,Bus,Hotel,2356
+602,San Francisco,9,Airplane,Hotel,1886
+603,Barcelona,5,Bus,Hotel,1203
+604,New York,12,Bus,Airbnb,3535
+605,London,2,Train,Airbnb,2665
+606,Amsterdam,1,Airplane,Airbnb,3753
+607,Sydney,4,Train,Airbnb,1261
+608,Rome,9,Bus,Hostel,2456
+609,Sydney,13,Car Rental,Hostel,4585
+610,New York,6,Train,Airbnb,1276
+611,San Francisco,12,Bus,Hotel,4158
+612,San Francisco,6,Airplane,Hotel,2915
+613,Paris,6,Car Rental,Hotel,2779
+614,Rome,1,Airplane,Airbnb,4716
+615,London,1,Train,Airbnb,2621
+616,San Francisco,6,Airplane,Hostel,2998
+617,San Francisco,13,Car Rental,Hostel,2903
+618,Amsterdam,8,Bus,Airbnb,2288
+619,Barcelona,11,Bus,Airbnb,1585
+620,Berlin,6,Train,Airbnb,2154
+621,London,7,Bus,Airbnb,1231
+622,Paris,4,Train,Hostel,3063
+623,Amsterdam,5,Car Rental,Airbnb,3625
+624,San Francisco,8,Train,Hotel,2825
+625,Rome,3,Car Rental,Hostel,3410
+626,Barcelona,11,Airplane,Hostel,2290
+627,Berlin,5,Car Rental,Airbnb,1592
+628,Barcelona,4,Car Rental,Airbnb,4859
+629,Barcelona,1,Airplane,Airbnb,2907
+630,San Francisco,7,Bus,Hostel,1806
+631,Tokyo,12,Car Rental,Hotel,4762
+632,San Francisco,13,Train,Hotel,3722
+633,Tokyo,11,Train,Hostel,2085
+634,Barcelona,3,Bus,Hotel,4129
+635,Amsterdam,4,Car Rental,Hostel,1472
+636,Tokyo,3,Bus,Airbnb,2755
+637,Sydney,7,Car Rental,Hotel,2743
+638,Berlin,12,Train,Hotel,3142
+639,Sydney,3,Airplane,Hostel,1693
+640,Barcelona,9,Airplane,Airbnb,1338
+641,Tokyo,12,Bus,Airbnb,2839
+642,Rome,12,Airplane,Airbnb,3120
+643,Tokyo,13,Train,Hotel,2594
+644,Amsterdam,14,Bus,Hostel,2109
+645,Rome,8,Airplane,Hotel,3571
+646,San Francisco,12,Bus,Hotel,4623
+647,Tokyo,12,Bus,Airbnb,1490
+648,Berlin,11,Bus,Hostel,3047
+649,London,13,Car Rental,Hotel,1577
+650,Paris,2,Bus,Airbnb,1023
+651,Amsterdam,3,Train,Hostel,1235
+652,Rome,5,Bus,Airbnb,4821
+653,San Francisco,13,Airplane,Hostel,1261
+654,New York,9,Car Rental,Airbnb,4381
+655,Berlin,8,Airplane,Hostel,3078
+656,Tokyo,10,Bus,Airbnb,3985
+657,Rome,10,Car Rental,Hostel,2954
+658,Tokyo,2,Airplane,Hotel,1097
+659,Tokyo,4,Car Rental,Hostel,4122
+660,London,9,Bus,Hotel,2479
+661,Barcelona,8,Car Rental,Hostel,2892
+662,Barcelona,12,Train,Hotel,4771
+663,Sydney,12,Bus,Hotel,1280
+664,Tokyo,11,Train,Airbnb,1493
+665,Rome,9,Airplane,Hotel,2951
+666,San Francisco,5,Bus,Airbnb,2833
+667,Paris,9,Train,Hotel,2147
+668,New York,12,Car Rental,Hotel,3066
+669,London,8,Airplane,Hostel,2975
+670,Paris,11,Bus,Hostel,2314
+671,Paris,4,Airplane,Hostel,3702
+672,Rome,5,Bus,Hotel,2705
+673,London,3,Airplane,Hotel,1419
+674,Barcelona,12,Car Rental,Hostel,2702
+675,Amsterdam,10,Airplane,Hostel,2269
+676,San Francisco,9,Train,Hotel,4857
+677,New York,4,Train,Hotel,4075
+678,New York,14,Train,Hostel,4037
+679,Barcelona,11,Car Rental,Hotel,3599
+680,Barcelona,8,Airplane,Airbnb,4334
+681,London,13,Train,Hostel,2808
+682,Berlin,7,Car Rental,Airbnb,3385
+683,Amsterdam,8,Airplane,Hotel,4002
+684,Tokyo,4,Bus,Hotel,3029
+685,Rome,5,Train,Hotel,4984
+686,San Francisco,6,Airplane,Hotel,1179
+687,Tokyo,13,Train,Hostel,2954
+688,Barcelona,11,Airplane,Airbnb,4629
+689,Berlin,5,Train,Hostel,2456
+690,New York,5,Train,Hotel,2274
+691,Barcelona,6,Car Rental,Hotel,3662
+692,Sydney,9,Train,Airbnb,2036
+693,Berlin,9,Car Rental,Hostel,4971
+694,Amsterdam,12,Airplane,Hostel,1278
+695,Tokyo,14,Airplane,Hostel,3969
+696,Amsterdam,6,Airplane,Hotel,2382
+697,Berlin,13,Airplane,Hostel,2447
+698,Sydney,1,Train,Airbnb,1325
+699,Berlin,4,Airplane,Hostel,2236
+700,Tokyo,11,Train,Hotel,1395
+701,Tokyo,7,Bus,Airbnb,4000
+702,Amsterdam,12,Bus,Hostel,1214
+703,Barcelona,10,Car Rental,Hostel,3382
+704,Paris,10,Train,Hotel,2474
+705,Barcelona,6,Airplane,Airbnb,2421
+706,Amsterdam,13,Bus,Hotel,2520
+707,Sydney,5,Bus,Hostel,3773
+708,Sydney,6,Train,Hotel,3016
+709,Amsterdam,8,Car Rental,Hostel,1512
+710,Berlin,4,Train,Airbnb,4943
+711,San Francisco,1,Bus,Hostel,1595
+712,Berlin,1,Bus,Airbnb,2691
+713,Tokyo,9,Airplane,Hotel,2865
+714,San Francisco,11,Train,Airbnb,1855
+715,San Francisco,1,Train,Hotel,3546
+716,Paris,6,Train,Hostel,4251
+717,San Francisco,14,Airplane,Airbnb,3808
+718,Paris,9,Train,Airbnb,4686
+719,New York,3,Car Rental,Hostel,1915
+720,Tokyo,10,Train,Hostel,2417
+721,London,11,Train,Airbnb,3181
+722,Paris,1,Train,Airbnb,4049
+723,London,1,Train,Airbnb,1793
+724,Paris,6,Bus,Hostel,2637
+725,Barcelona,7,Airplane,Hostel,1561
+726,Berlin,6,Train,Hostel,1223
+727,Tokyo,8,Bus,Hostel,4316
+728,Berlin,7,Train,Airbnb,4500
+729,Amsterdam,1,Airplane,Hostel,4740
+730,Tokyo,6,Train,Hostel,4028
+731,Sydney,6,Bus,Hotel,1667
+732,Paris,12,Bus,Airbnb,3317
+733,San Francisco,11,Train,Airbnb,2120
+734,London,7,Train,Airbnb,4781
+735,New York,6,Airplane,Hotel,4670
+736,San Francisco,12,Airplane,Hostel,2754
+737,San Francisco,2,Bus,Hostel,2245
+738,Rome,9,Car Rental,Hotel,4390
+739,Berlin,4,Airplane,Airbnb,4717
+740,New York,9,Car Rental,Hostel,3239
+741,London,11,Airplane,Airbnb,1007
+742,Amsterdam,10,Car Rental,Hostel,1428
+743,Berlin,6,Bus,Hotel,4000
+744,Barcelona,12,Train,Hotel,4035
+745,Tokyo,8,Airplane,Hostel,3345
+746,Tokyo,9,Airplane,Airbnb,1115
+747,New York,11,Bus,Hotel,3551
+748,Sydney,7,Bus,Hotel,4086
+749,Tokyo,4,Bus,Airbnb,4219
+750,Amsterdam,7,Bus,Airbnb,1114
+751,Paris,8,Bus,Airbnb,3943
+752,Rome,3,Bus,Airbnb,1219
+753,San Francisco,4,Bus,Hotel,1365
+754,Amsterdam,9,Airplane,Hotel,1881
+755,London,5,Train,Hotel,1522
+756,Rome,9,Car Rental,Hotel,3680
+757,Berlin,9,Train,Hotel,4684
+758,San Francisco,7,Train,Hostel,1633
+759,Sydney,2,Bus,Airbnb,3208
+760,New York,1,Train,Airbnb,2110
+761,Sydney,8,Train,Airbnb,4233
+762,New York,13,Train,Hostel,3120
+763,Paris,9,Train,Hostel,2430
+764,Tokyo,11,Car Rental,Hostel,4347
+765,Rome,3,Airplane,Hostel,3851
+766,Rome,2,Airplane,Hotel,4630
+767,London,14,Train,Hotel,1322
+768,Berlin,11,Car Rental,Airbnb,2297
+769,San Francisco,9,Bus,Hostel,2040
+770,Barcelona,9,Airplane,Hotel,4842
+771,London,4,Car Rental,Airbnb,2647
+772,Barcelona,9,Car Rental,Airbnb,3546
+773,San Francisco,6,Airplane,Hotel,4730
+774,Rome,14,Airplane,Hostel,4680
+775,Sydney,9,Train,Airbnb,4272
+776,Berlin,10,Car Rental,Airbnb,2124
+777,Rome,7,Car Rental,Hotel,3073
+778,Amsterdam,11,Bus,Hotel,3347
+779,London,13,Airplane,Airbnb,2081
+780,London,7,Airplane,Airbnb,1774
+781,San Francisco,2,Bus,Airbnb,4131
+782,Amsterdam,4,Airplane,Hotel,3317
+783,Berlin,2,Airplane,Hostel,2964
+784,Barcelona,10,Airplane,Hostel,1630
+785,Barcelona,10,Airplane,Hotel,3856
+786,Sydney,14,Bus,Hotel,4278
+787,Paris,11,Bus,Hotel,2181
+788,Rome,10,Train,Hostel,1443
+789,Tokyo,5,Bus,Airbnb,1759
+790,San Francisco,1,Car Rental,Hotel,1797
+791,Rome,14,Car Rental,Hotel,3522
+792,San Francisco,12,Airplane,Airbnb,2832
+793,London,5,Bus,Hostel,2079
+794,San Francisco,10,Train,Hotel,4701
+795,Tokyo,1,Bus,Airbnb,3135
+796,London,2,Train,Airbnb,4715
+797,San Francisco,5,Car Rental,Airbnb,2588
+798,San Francisco,14,Airplane,Hostel,4689
+799,San Francisco,7,Bus,Hotel,1281
+800,San Francisco,8,Bus,Hostel,3772
+801,Tokyo,1,Train,Airbnb,2414
+802,London,11,Train,Hostel,2561
+803,Paris,1,Airplane,Hotel,2018
+804,Amsterdam,9,Train,Airbnb,2925
+805,London,14,Train,Airbnb,2761
+806,Berlin,2,Train,Airbnb,1126
+807,Berlin,10,Bus,Airbnb,2978
+808,London,12,Airplane,Airbnb,3965
+809,Amsterdam,8,Car Rental,Airbnb,4245
+810,Barcelona,11,Bus,Hostel,4335
+811,New York,13,Car Rental,Hostel,3378
+812,San Francisco,12,Car Rental,Hostel,3922
+813,Paris,14,Bus,Hostel,1471
+814,Tokyo,5,Airplane,Hostel,2947
+815,Barcelona,4,Car Rental,Airbnb,4232
+816,New York,10,Car Rental,Hostel,3338
+817,Rome,4,Airplane,Hostel,1224
+818,Sydney,11,Airplane,Airbnb,1084
+819,Barcelona,12,Bus,Airbnb,4476
+820,Sydney,9,Train,Hostel,1837
+821,Tokyo,10,Train,Hotel,3873
+822,Paris,13,Airplane,Airbnb,1411
+823,Berlin,6,Car Rental,Airbnb,4420
+824,London,12,Car Rental,Hotel,1146
+825,Rome,14,Train,Hostel,4771
+826,London,11,Train,Hostel,4223
+827,Sydney,7,Train,Airbnb,1622
+828,San Francisco,13,Bus,Airbnb,4588
+829,New York,12,Airplane,Hotel,1881
+830,Rome,1,Airplane,Hotel,2455
+831,Paris,13,Train,Hostel,1235
+832,Barcelona,13,Car Rental,Hotel,4492
+833,San Francisco,1,Bus,Airbnb,3434
+834,Amsterdam,5,Train,Airbnb,1114
+835,Tokyo,4,Car Rental,Hotel,2085
+836,New York,4,Train,Airbnb,1933
+837,Berlin,12,Car Rental,Hotel,1848
+838,Tokyo,7,Bus,Hostel,1435
+839,Tokyo,1,Bus,Hotel,4901
+840,San Francisco,6,Train,Hotel,2104
+841,Berlin,1,Airplane,Hotel,1828
+842,Tokyo,5,Airplane,Hotel,1441
+843,Sydney,10,Train,Hotel,3764
+844,New York,7,Airplane,Hotel,4915
+845,Berlin,5,Bus,Hostel,3888
+846,New York,5,Bus,Hostel,2030
+847,Paris,2,Car Rental,Hotel,3787
+848,London,7,Train,Airbnb,2297
+849,Berlin,9,Bus,Hotel,3827
+850,San Francisco,9,Car Rental,Hostel,4020
+851,Amsterdam,13,Train,Airbnb,4553
+852,Sydney,1,Airplane,Airbnb,2631
+853,Sydney,6,Airplane,Airbnb,4538
+854,Berlin,9,Airplane,Airbnb,4695
+855,Sydney,10,Car Rental,Hostel,4618
+856,Sydney,11,Bus,Hostel,4803
+857,Rome,1,Bus,Hostel,2499
+858,Sydney,9,Bus,Hotel,1429
+859,San Francisco,14,Train,Hostel,1065
+860,Rome,2,Airplane,Hotel,3454
+861,London,2,Car Rental,Hotel,1618
+862,Paris,1,Train,Hostel,3866
+863,Rome,3,Bus,Airbnb,3345
+864,San Francisco,7,Train,Airbnb,3458
+865,Berlin,1,Car Rental,Airbnb,4317
+866,London,7,Bus,Airbnb,3117
+867,Barcelona,7,Train,Hostel,3272
+868,Paris,1,Airplane,Airbnb,2777
+869,San Francisco,7,Airplane,Hostel,2885
+870,San Francisco,1,Airplane,Hotel,4736
+871,Tokyo,4,Car Rental,Hotel,4655
+872,Berlin,13,Airplane,Hostel,3060
+873,Paris,8,Car Rental,Airbnb,2512
+874,San Francisco,5,Car Rental,Hotel,2948
+875,Barcelona,7,Bus,Hotel,4502
+876,Amsterdam,7,Airplane,Airbnb,3626
+877,Rome,9,Airplane,Hostel,2811
+878,New York,10,Airplane,Airbnb,2693
+879,London,4,Airplane,Airbnb,2927
+880,Paris,8,Train,Hotel,4476
+881,Tokyo,2,Airplane,Airbnb,4287
+882,Barcelona,7,Car Rental,Hostel,2804
+883,Sydney,10,Bus,Hotel,1693
+884,Amsterdam,5,Car Rental,Hotel,4178
+885,New York,9,Train,Hotel,3130
+886,Paris,11,Car Rental,Airbnb,1622
+887,Paris,1,Train,Hotel,1361
+888,London,13,Bus,Hostel,2204
+889,Amsterdam,3,Airplane,Hotel,1789
+890,Paris,10,Bus,Airbnb,1728
+891,San Francisco,14,Bus,Hotel,1657
+892,Paris,2,Car Rental,Hotel,1761
+893,Rome,2,Car Rental,Hotel,4005
+894,New York,1,Bus,Airbnb,2994
+895,Barcelona,2,Airplane,Airbnb,3414
+896,San Francisco,11,Train,Hotel,3946
+897,Berlin,9,Train,Hotel,4974
+898,San Francisco,3,Train,Hostel,1968
+899,Berlin,13,Bus,Airbnb,2290
+900,Paris,4,Airplane,Hostel,2550
+901,Barcelona,2,Airplane,Airbnb,1261
+902,Sydney,2,Bus,Airbnb,2867
+903,London,13,Train,Hostel,1550
+904,Paris,5,Car Rental,Hostel,2980
+905,Paris,4,Airplane,Hotel,1868
+906,San Francisco,6,Airplane,Hotel,4612
+907,Sydney,4,Airplane,Hotel,1084
+908,Rome,9,Car Rental,Hostel,1408
+909,Sydney,14,Airplane,Hotel,2289
+910,New York,12,Bus,Hostel,3925
+911,Barcelona,8,Bus,Airbnb,4605
+912,Rome,2,Bus,Hotel,1001
+913,Tokyo,6,Airplane,Airbnb,1896
+914,Paris,6,Bus,Hostel,3100
+915,Sydney,7,Train,Hotel,4601
+916,Tokyo,4,Airplane,Hostel,2778
+917,Berlin,11,Car Rental,Hotel,3404
+918,Berlin,10,Train,Airbnb,4892
+919,Rome,7,Bus,Hostel,1247
+920,Amsterdam,11,Bus,Hostel,3278
+921,Barcelona,14,Car Rental,Hotel,2536
+922,Rome,1,Airplane,Airbnb,1351
+923,Tokyo,11,Bus,Hotel,3227
+924,London,12,Airplane,Hostel,2743
+925,Tokyo,1,Airplane,Airbnb,3716
+926,Sydney,13,Car Rental,Airbnb,1577
+927,San Francisco,13,Bus,Hostel,3061
+928,Rome,9,Bus,Hotel,4782
+929,San Francisco,13,Car Rental,Hotel,1857
+930,San Francisco,9,Airplane,Hotel,3898
+931,Paris,4,Car Rental,Hostel,1678
+932,New York,7,Car Rental,Hotel,3168
+933,Barcelona,8,Car Rental,Hotel,1705
+934,Paris,6,Car Rental,Hotel,4394
+935,San Francisco,12,Car Rental,Hotel,4067
+936,Amsterdam,4,Bus,Hostel,3617
+937,New York,9,Train,Airbnb,4506
+938,Sydney,1,Airplane,Airbnb,3689
+939,Amsterdam,8,Airplane,Hotel,4075
+940,Tokyo,7,Airplane,Airbnb,1661
+941,New York,11,Bus,Airbnb,2536
+942,New York,13,Train,Airbnb,4453
+943,Sydney,3,Bus,Hostel,3493
+944,London,4,Train,Airbnb,4906
+945,Tokyo,13,Bus,Hotel,4777
+946,Tokyo,9,Airplane,Hostel,1479
+947,Berlin,2,Car Rental,Hostel,2895
+948,San Francisco,12,Airplane,Hostel,1297
+949,Amsterdam,13,Train,Airbnb,1995
+950,Barcelona,13,Car Rental,Hostel,1590
+951,Paris,1,Car Rental,Hostel,2360
+952,Paris,4,Car Rental,Hostel,1717
+953,Tokyo,14,Train,Hostel,1297
+954,Berlin,3,Train,Airbnb,1267
+955,Barcelona,4,Airplane,Hotel,1371
+956,Barcelona,1,Car Rental,Airbnb,2415
+957,Amsterdam,10,Airplane,Hotel,2710
+958,Rome,3,Airplane,Hostel,4567
+959,New York,4,Train,Hotel,4553
+960,Paris,1,Airplane,Hostel,4546
+961,Berlin,9,Bus,Airbnb,4501
+962,Amsterdam,12,Train,Airbnb,3797
+963,New York,14,Airplane,Hotel,4345
+964,San Francisco,11,Train,Hostel,4796
+965,Sydney,14,Airplane,Hostel,4590
+966,Barcelona,1,Bus,Hostel,3699
+967,Amsterdam,14,Train,Airbnb,1057
+968,Tokyo,2,Airplane,Hotel,4242
+969,Amsterdam,14,Train,Hostel,4508
+970,Rome,1,Train,Airbnb,1518
+971,London,10,Train,Hostel,1059
+972,Amsterdam,8,Train,Hotel,2603
+973,Sydney,9,Car Rental,Airbnb,4431
+974,Barcelona,7,Car Rental,Hotel,2663
+975,Amsterdam,12,Bus,Hostel,1792
+976,San Francisco,12,Airplane,Hostel,4805
+977,Paris,2,Train,Hostel,4396
+978,Berlin,12,Airplane,Hotel,2329
+979,Amsterdam,11,Train,Airbnb,4182
+980,San Francisco,13,Car Rental,Airbnb,4738
+981,New York,5,Airplane,Hostel,2605
+982,San Francisco,9,Airplane,Hostel,1396
+983,Paris,8,Airplane,Hotel,1085
+984,London,5,Bus,Airbnb,1809
+985,Amsterdam,14,Bus,Hotel,1813
+986,Sydney,1,Bus,Hotel,4267
+987,Paris,1,Train,Hotel,3228
+988,San Francisco,11,Car Rental,Airbnb,4390
+989,Rome,9,Train,Hotel,1484
+990,London,10,Airplane,Airbnb,4806
+991,Barcelona,3,Airplane,Hostel,1655
+992,Rome,5,Airplane,Airbnb,1217
+993,Paris,12,Bus,Hostel,2304
+994,London,6,Bus,Hotel,1275
+995,Rome,13,Train,Airbnb,1472
+996,New York,14,Airplane,Airbnb,4113
+997,Amsterdam,11,Train,Hotel,3150
+998,Sydney,8,Car Rental,Hotel,2372
+999,Tokyo,10,Train,Hotel,4616
+1000,Tokyo,10,Airplane,Hotel,3412
