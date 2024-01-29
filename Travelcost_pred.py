@@ -1,8 +1,7 @@
 import streamlit as st
 import joblib
 import pandas as pd
-import base64
-
+import os
 
 def main():
     # External CSS style
@@ -54,7 +53,15 @@ def main():
             """
     user_input=[]
     st.markdown(html_temp,unsafe_allow_html=True)
-    model =joblib.load('best_model')
+   
+
+    
+    model_path = os.path.abspath('best_model')
+    if os.path.exists(model_path):
+        model = joblib.load(model_path)
+        # Rest of your code...
+    else:
+        print(f"Model file '{model_path}' not found.")
     p1 = st.number_input("Enter the Duration of the Travel: ", step=1, format="%d")
     user_input.append(p1)
     mm = st.text_input("Starting from :")
