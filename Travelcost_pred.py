@@ -3,6 +3,7 @@ import joblib
 import pandas as pd
 import os
 
+
 def main():
     # External CSS style
     external_css = """
@@ -74,8 +75,6 @@ def main():
     user_input.append(p4)
     columns = ["Duration (days)", "Destination", "Accommodation type", "Transportation"]
     u_dataframe = pd.DataFrame([user_input], columns=columns)
-    model=None
-    res=None
     if p2 and mm:
         df = pd.read_csv("u_t_d_f.csv")
         u_dataframe = pd.get_dummies(u_dataframe, columns=['Destination'], prefix='Destination')
@@ -95,50 +94,50 @@ def main():
                 # Rest of your code...
             else:
                 print(f"Model file '{model_path}' not found.")
-            if model is not None:
-                res=model.predict(u_dataframe)
-                st.success("Your travel expense could be around: {} $".format(round(res[0])))
+            
+            res=model.predict(u_dataframe)
+            st.success("Your travel expense could be around: {} $".format(round(res[0])))
         
 
         # Display additional details about the travel package with improved styling
-            if res is not None and len(res) > 0:
-                st.markdown("<h3 text_align=center>One plan's Package Details:</h3>", unsafe_allow_html=True)
-                st.markdown(
-                    """
-                    <div class="travel-package">
-                        <p class="package-details"><strong>Accommodation Type:</strong> {}</p>
-                        <p class="package-details"><strong>Transportation:</strong> {}</p>
-                        <p class="package-details"><strong>Duration:</strong> {} days</p>
-                        <p class="package-details"><strong>Cost : </strong> {}</p>
-                    </div>
-                    """.format(user_input[2], user_input[3], user_input[0],round(res[0])),
-                    unsafe_allow_html=True)
+            
+            st.markdown("<h3 text_align=center>One plan's Package Details:</h3>", unsafe_allow_html=True)
+            st.markdown(
+                """
+                <div class="travel-package">
+                    <p class="package-details"><strong>Accommodation Type:</strong> {}</p>
+                    <p class="package-details"><strong>Transportation:</strong> {}</p>
+                    <p class="package-details"><strong>Duration:</strong> {} days</p>
+                    <p class="package-details"><strong>Cost : </strong> {}</p>
+                </div>
+                """.format(user_input[2], user_input[3], user_input[0],round(res[0])),
+                unsafe_allow_html=True)
         
             # Display additional details about the travel package with improved styling
-                st.markdown("<h3 text_align=center>Dream planner Package Details:</h3>", unsafe_allow_html=True)
-                st.markdown(
-                    """
-                    <div class="travel-package1">
-                        <p class="package-details"><strong>Accommodation Type:</strong> {}</p>
-                        <p class="package-details"><strong>Transportation:</strong> {}</p>
-                        <p class="package-details"><strong>Duration:</strong> {} days</p>
-                        <p class="package-details"><strong>Cost : </strong> {}</p>
-                    </div>
-                    """.format(user_input[2], user_input[3], user_input[0],round(res[0])),
-                    unsafe_allow_html=True)
+            st.markdown("<h3 text_align=center>Dream planner Package Details:</h3>", unsafe_allow_html=True)
+            st.markdown(
+                """
+                <div class="travel-package1">
+                    <p class="package-details"><strong>Accommodation Type:</strong> {}</p>
+                    <p class="package-details"><strong>Transportation:</strong> {}</p>
+                    <p class="package-details"><strong>Duration:</strong> {} days</p>
+                    <p class="package-details"><strong>Cost : </strong> {}</p>
+                </div>
+                """.format(user_input[2], user_input[3], user_input[0],round(res[0])),
+                unsafe_allow_html=True)
         
              # Display additional details about the travel package with improved styling
-                st.markdown("<h3 text_align=center>peace of mind planner Package Details:</h3>", unsafe_allow_html=True)
-                st.markdown(
-                    """
-                    <div class="travel-package2">
-                        <p class="package-details"><strong>Accommodation Type:</strong> {}</p>
-                        <p class="package-details"><strong>Transportation:</strong> {}</p>
-                        <p class="package-details"><strong>Duration:</strong> {} days</p>
-                        <p class="package-details"><strong>Cost : </strong> {}</p>
-                    </div>
-                    """.format(user_input[2], user_input[3], user_input[0],round(res[0])),
-                    unsafe_allow_html=True)
+            st.markdown("<h3 text_align=center>peace of mind planner Package Details:</h3>", unsafe_allow_html=True)
+            st.markdown(
+                """
+                <div class="travel-package2">
+                    <p class="package-details"><strong>Accommodation Type:</strong> {}</p>
+                    <p class="package-details"><strong>Transportation:</strong> {}</p>
+                    <p class="package-details"><strong>Duration:</strong> {} days</p>
+                    <p class="package-details"><strong>Cost : </strong> {}</p>
+                </div>
+                """.format(user_input[2], user_input[3], user_input[0],round(res[0])),
+                unsafe_allow_html=True)
     else:
         st.warning("Enter valid credentials.")
 
