@@ -2,7 +2,7 @@ import streamlit as st
 import joblib
 import pandas as pd
 import os
-
+from sklearn.ensemble import GradientBoostingRegressor
 
 def main():
     # External CSS style
